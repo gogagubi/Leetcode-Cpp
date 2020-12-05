@@ -1,0 +1,30 @@
+cmake_minimum_required(VERSION 3.14)
+#cmake_minimum_required(VERSION 3.16)
+
+project(Leetcode)
+
+set(CMAKE_CXX_STANDARD 14)
+
+#arrays
+add_executable(array_11_ContainerWithMostWater array/_11_ContainerWithMostWater.cpp util/Util.cpp model/TreeNode.cpp binarysearch/_274_FirstBadVersion.cpp)
+add_executable(array_162_PeakElement array/_162_PeakElement.cpp)
+add_executable(array_167_TwoSum array/_167_TwoSum.cpp)
+add_executable(array_268_MissingNumber.cpp array/_268_MissingNumber.cpp)
+
+#backtracking
+add_executable(backtracking_17_LetterCombinationsOfPhoneNumber backtracking/_17_LetterCombinationsOfPhoneNumber.cpp)
+
+#binarysearch
+add_executable(binarysearch_274_FirstBadVersion binarysearch/_274_FirstBadVersion.cpp)
+
+#linked lists
+add_executable(linkedlist_2_AddTwoNumbers linkedlist/_2_AddTwoNumbers.cpp)
+
+#string
+add_executable(string_38_CountAndSay string/_38_CountAndSay.cpp)
+add_executable(string_1268_SearchSuggestionsSystem string/_1268_SearchSuggestionsSystem.cpp)
+add_executable(string_1138_AlphabetBoardPath string/_1138_AlphabetBoardPath.cpp)
+add_executable(string_657_RobotReturnToOrigin string/_657_RobotReturnToOrigin.cpp)
+
+#trees
+add_executable(tree_653_TwoSumIV1 tree/_653_TwoSumIV.cpp)
