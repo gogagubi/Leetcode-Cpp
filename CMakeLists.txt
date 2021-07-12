@@ -6,7 +6,7 @@ project(Leetcode)
 set(CMAKE_CXX_STANDARD 14)
 
 #arrays
-add_executable(array_11_ContainerWithMostWater array/_11_ContainerWithMostWater.cpp util/Util.cpp model/TreeNode.cpp binarysearch/_274_FirstBadVersion.cpp)
+add_executable(array_11_ContainerWithMostWater array/_11_ContainerWithMostWater.cpp)
 add_executable(array_162_PeakElement array/_162_PeakElement.cpp)
 add_executable(array_167_TwoSum array/_167_TwoSum.cpp)
 add_executable(array_268_MissingNumber.cpp array/_268_MissingNumber.cpp)
